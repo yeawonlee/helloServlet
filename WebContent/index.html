@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 사용자 입력을 받기 위해 form 하나 만듦 -->
+	<!-- 어떤 서블릿에 보낼 것인지 URL을 줌(action="loginServlet") -->
+	<!-- form이 실제로 submit이 이루어질 때 이 URL(loginServlet)로 post 메서드를 보낸다. -->
+	<form action="loginServlet" method="post">
+		Username: <input type="text" name="username"><br/>
+		Password: <input type="password" name="password"><br/>
+		<input type="submit" value="press">
+	</form>
+</body>
+</html>
